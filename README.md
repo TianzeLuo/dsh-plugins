@@ -1,6 +1,6 @@
 # DSH Plugins
 
-A curated collection of plugins for **DSH (DeepSeek Harness)** — academic search, paper reading, session workflows, notifications, and math rendering.
+A curated collection of plugins for **DSH (DeepSeek Harness)** — agent orchestration, academic search, paper reading, session workflows, notifications, and math rendering.
 
 DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：每个插件保留自己的仓库、版本节奏和许可证，这里维护合集层面的分类与说明。
 
@@ -20,6 +20,12 @@ DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：�
 | [`dsh-btw-sidebar`](https://github.com/tianzeluo/dsh-btw-sidebar) | Codex 风格的 `/btw`：把当前会话分叉到 DSH 原生右侧栏，继续使用完整会话与工具能力。 |
 | [`dsh-away-notify`](https://github.com/tianzeluo/dsh-away-notify) | 只有当你不在 DSH 页面时，才为完成、出错、等待审批等事件弹桌面通知；点击回到对应会话。 |
 | [`dsh-commandcode-quota`](https://github.com/tianzeluo/dsh-commandcode-quota) | 在会话页头查看 Command Code 套餐的 5 小时 / 每周 / 月度额度、重置倒计时与计费周期用量。 |
+
+### Agent 编排 / Agent orchestration
+
+| 插件 | 说明 |
+| --- | --- |
+| [`dsh-super-agent`](https://github.com/tianzeluo/dsh-super-agent) | Router/Worker 双层 Super-agent：自然语言入口、持久化 Trigger/Thread、跨项目 Worker、定时唤醒和 Web 控制面板；任务与 Worker 会话可审计。 |
 
 ### 渲染 / Rendering
 
@@ -59,4 +65,4 @@ dsh plugin --profile web add github:tianzeluo/dsh-btw-sidebar
 
 ---
 
-**English summary**: A curated index of DSH plugins for academic search, paper reading, session workflows, notifications, and math rendering. Every plugin links to its own public repository.
+**English summary**: A curated index of DSH plugins for agent orchestration, academic search, paper reading, session workflows, notifications, and math rendering. Every plugin links to its own public repository.

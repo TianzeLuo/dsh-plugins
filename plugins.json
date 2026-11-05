@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-11-05",
   "plugins": [
     {
       "id": "dsh-academic-search",
@@ -35,6 +35,13 @@
       "status": "public",
       "repo": "https://github.com/tianzeluo/dsh-commandcode-quota",
       "description": "Command Code plan quota card with 5-hour, weekly, and monthly windows, reset countdowns, and billing-period usage."
+    },
+    {
+      "id": "dsh-super-agent",
+      "category": "orchestration",
+      "status": "public",
+      "repo": "https://github.com/tianzeluo/dsh-super-agent",
+      "description": "Router/Worker super-agent with natural-language dispatch, durable triggers and threads, cross-project workers, scheduled wakeups, and an audit-friendly Web control panel."
     },
     {
       "id": "dsh-tex-block-normalizer",
